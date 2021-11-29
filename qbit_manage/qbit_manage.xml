@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Qbit_Manage</Name>
+  <Name>qbit_manage</Name>
   <Repository>bobokun/qbit_manage</Repository>
   <Registry>https://hub.docker.com/r/bobokun/qbit_manage</Registry>
   <Network>bridge</Network>
