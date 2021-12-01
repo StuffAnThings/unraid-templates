@@ -24,7 +24,7 @@ Built-in scheduler to run the script every x minutes. (Can use --run command to 
   <Category>Tools:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://github.com/StuffAnThings/qbit_manage/blob/master/qbm_logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
