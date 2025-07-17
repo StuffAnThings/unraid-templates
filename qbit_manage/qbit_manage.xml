@@ -1,4 +1,4 @@
-<?xml version="1.1"?>
+<?xml version="1.2"?>
 <Container version="2">
   <Name>qbit_manage</Name>
   <Repository>bobokun/qbit_manage</Repository>
@@ -17,7 +17,7 @@
 - **Scheduler:** Run tasks on a schedule or on-demand.&#xD;
 - **Web UI:** A modern web interface to configure and manage qbit_manage, and trigger commands manually.</Overview>
   <Category>Tools:</Category>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/StuffAnThings/qbit_manage/blob/master/qbm_logo.png?raw=true</Icon>
   <ExtraParams/>
@@ -183,6 +183,7 @@
     </Variable>
   </Environment>
   <Labels/>
+  <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
   <Config Name="Root_Dir" Target="/Same/path/as/qbittorrent/downloads/" Default="/mnt/user" Mode="rw" Description="Container Path: /Same/path/as/qbittorrent/downloads/" Type="Path" Display="always" Required="true" Mask="false">/mnt/user</Config>
   <Config Name="QBT_CONFIG" Target="QBT_CONFIG" Default="config.yml" Mode="" Description="This is used if you want to use a different name for your config.yml. Example: tv.yml" Type="Variable" Display="always-hide" Required="false" Mask="false">config.yml</Config>
   <Config Name="QBT_LOGFILE" Target="QBT_LOGFILE" Default="activity.log" Mode="" Description="This is used if you want to use a different name for your log file. Example: tv.log" Type="Variable" Display="always-hide" Required="false" Mask="false">activity.log</Config>
