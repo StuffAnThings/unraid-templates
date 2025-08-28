@@ -1,8 +1,8 @@
 <?xml version="1.2"?>
 <Container version="2">
   <Name>qbit_manage</Name>
-  <Repository>bobokun/qbit_manage</Repository>
-  <Registry>https://hub.docker.com/r/bobokun/qbit_manage</Registry>
+  <Repository>ghcr.io/stuffanthings/qbit_manage:latest</Repository>
+  <Registry>https://github.com/StuffAnThings/qbit_manage/pkgs/container/qbit_manage</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -19,7 +19,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/StuffAnThings/qbit_manage/blob/master/qbm_logo.png?raw=true</Icon>
+  <Icon>https://github.com/StuffAnThings/qbit_manage/blob/master/icons/qbm_logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
