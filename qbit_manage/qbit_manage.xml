@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/StuffAnThings/qbit_manage/wiki/Unraid-Installation</Support>
+  <Support>https://github.com/StuffAnThings/qbit_manage/wiki#support</Support>
   <Project>https://github.com/StuffAnThings/qbit_manage</Project>
   <Overview>qbit_manage is a tool to manage your qBittorrent instance. It offers a range of features to automate your torrenting workflow, including:&#xD;
 - **Category and Tag Management:** Automatically update categories based on save paths and add tags based on tracker URLs.&#xD;
@@ -18,7 +18,8 @@
 - **Web UI:** A modern web interface to configure and manage qbit_manage, and trigger commands manually.</Overview>
   <Category>Downloaders: MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL>https://github.com/StuffAnThings/unraid-templates/raw/refs/heads/main/qbit_manage/qbit_manage.xml</TemplateURL>
+  <ReadMe>https://github.com/StuffAnThings/qbit_manage/wiki</ReadMe>
+  <TemplateURL>https://raw.githubusercontent.com/StuffAnThings/unraid-templates/main/qbit_manage/qbit_manage.xml</TemplateURL>
   <Icon>https://github.com/StuffAnThings/qbit_manage/blob/master/icons/qbm_logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
