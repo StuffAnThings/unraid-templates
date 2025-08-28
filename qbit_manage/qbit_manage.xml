@@ -16,16 +16,23 @@
 - **Health Checks:** Recheck paused torrents and tag torrents with tracker errors.&#xD;
 - **Scheduler:** Run tasks on a schedule or on-demand.&#xD;
 - **Web UI:** A modern web interface to configure and manage qbit_manage, and trigger commands manually.</Overview>
-  <Category>Tools:</Category>
+  <Category>Downloaders: MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/StuffAnThings/unraid-templates/raw/refs/heads/main/qbit_manage/qbit_manage.xml</TemplateURL>
   <Icon>https://github.com/StuffAnThings/qbit_manage/blob/master/icons/qbm_logo.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1637867734</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>You can become a GitHub sponsor or send some Crypto.</DonateText>
+  <DonateLink>https://github.com/sponsors/bobokun</DonateLink>
+  <Branch>
+    <Tag>latest</Tag>
+    <TagDescription>Latest stable release</TagDescription>
+  </Branch>
+  <Branch>
+      <Tag>develop</Tag>
+      <TagDescription>Latest development release</TagDescription>
+  </Branch>
   <Description>qbit_manage is a tool to manage your qBittorrent instance. It offers a range of features to automate your torrenting workflow, including:&#xD;
 - **Category and Tag Management:** Automatically update categories based on save paths and add tags based on tracker URLs.&#xD;
 - **Torrent Cleanup:** Remove unregistered torrents, orphaned files, and torrents without hardlinks.&#xD;
