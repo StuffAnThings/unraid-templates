@@ -70,8 +70,8 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>config.yml</Value>
-      <Name>QBT_CONFIG</Name>
+      <Value>/config</Value>
+      <Name>QBT_CONFIG_DIR</Name>
       <Mode/>
     </Variable>
     <Variable>
@@ -193,7 +193,7 @@
   <Labels/>
   <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
   <Config Name="Root_Dir" Target="/Same/path/as/qbittorrent/downloads/" Default="/mnt/user" Mode="rw" Description="Container Path: /Same/path/as/qbittorrent/downloads/" Type="Path" Display="always" Required="true" Mask="false">/mnt/user</Config>
-  <Config Name="QBT_CONFIG" Target="QBT_CONFIG" Default="config*.yml" Mode="" Description="This is used if you want to use a different name for your config.yml. Example: tv.yml" Type="Variable" Display="always-hide" Required="false" Mask="false">config.yml</Config>
+  <Config Name="QBT_CONFIG_DIR" Target="QBT_CONFIG_DIR" Default="/config" Mode="" Description="This is used to specify the configuration directory. It will treat all YAML files in this directory as valid configs." Type="Variable" Display="always-hide" Required="false" Mask="false">/config</Config>
   <Config Name="QBT_LOGFILE" Target="QBT_LOGFILE" Default="qbit_manage.log" Mode="" Description="This is used if you want to use a different name for your log file. Example: tv.log" Type="Variable" Display="always-hide" Required="false" Mask="false">activity.log</Config>
   <Config Name="QBT_RUN" Target="QBT_RUN" Default="False|True" Mode="" Description="Run without the scheduler. Script will exit after completion." Type="Variable" Display="always-hide" Required="false" Mask="false">False</Config>
   <Config Name="QBT_SCHEDULE" Target="QBT_SCHEDULE" Default="30" Mode="" Description="Schedule to run every x minutes. (Default set to 30)" Type="Variable" Display="always-hide" Required="false" Mask="false">30</Config>
